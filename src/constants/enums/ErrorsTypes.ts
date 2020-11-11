@@ -1,0 +1,10 @@
+enum ErrorsTypes {
+  BAD_REQUEST,
+  NOT_FOUND,
+  INTERNAL_SERVER_ERROR,
+  REQUIRED,
+  INCORRECT_RESPONSE_FROM_APPLE,
+  IS_SANDBOX_PURCHASE,
+}
+
+export default ErrorsTypes;

@@ -1,0 +1,13 @@
+node_modules
+dist
+assets
+.idea
+.tmpfile
+.DS_Store
+certs
+backup
+.pm2
+
+
+.env*
+docker-compose*

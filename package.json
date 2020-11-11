@@ -1,0 +1,48 @@
+{
+  "name": "inapppurchase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "NODE_ENV=production node dist/index.js",
+    "start:dev": "NODE_ENV=development nodemon --watch src src/index.ts",
+    "clear": "rm -r dist",
+    "test": "mocha --files --timeout 50000 -b -r ts-node/register **/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denjoygroup/inapppurchase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denjoygroup/inapppurchase/issues"
+  },
+  "homepage": "https://github.com/denjoygroup/inapppurchase#readme",
+  "devDependencies": {
+    "@types/compression": "^1.7.0",
+    "@types/express": "^4.17.4",
+    "@types/express-session": "^1.17.0",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^13.9.8",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "google-auth-library": "^6.0.6",
+    "inversify": "^5.0.1",
+    "inversify-express-utils": "^6.3.2",
+    "mocha": "^8.2.1",
+    "moment-timezone": "^0.5.31",
+    "reflect-metadata": "^0.1.13",
+    "winston": "^3.2.1"
+  }
+}
